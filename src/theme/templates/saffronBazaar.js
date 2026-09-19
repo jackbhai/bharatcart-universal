@@ -1,0 +1,22 @@
+export default {
+  id: 'saffron-bazaar',
+  name: 'Saffron Bazaar',
+  description: 'Festive Indian marketplace — warm saffron and maroon, ornate detailing, high energy.',
+  tags: ['festive', 'indian', 'warm'],
+  preview: { bg: '#FFF8F0', a: '#E8590C', b: '#9B2226', c: '#F2B705' },
+  tokens: {
+    primary: '#E8590C', primaryFg: '#FFFFFF', secondary: '#9B2226', accent: '#F2B705',
+    bg: '#FFF8F0', surface: '#FFFFFF', surfaceAlt: '#FFF1E0',
+    text: '#2B1608', textMuted: '#8A6A50', border: '#F0DCC4',
+    success: '#2D8A47', warning: '#E8A317', danger: '#C1272D', info: '#2A6FB5',
+    fontHeading: "'Playfair Display', Georgia, serif", fontBody: "'Inter', system-ui, sans-serif",
+    baseSize: 15, scaleRatio: 1.3, headingWeight: '700', bodyWeight: '400',
+    lineHeight: 1.6, letterSpacing: 0, headingCase: 'none',
+    radius: 14, radiusSm: 8, borderWidth: 1, shadowIntensity: 'soft',
+    containerWidth: 1280, sectionGap: 72, gridGap: 18,
+    cardStyle: 'raised', buttonStyle: 'solid', inputStyle: 'outlined',
+    imageRatio: '3/4', plpColumns: 4,
+    intensity: 'normal', pageTransition: 'fade', hoverLift: true, parallax: true,
+    confetti: true, backgroundFx: 'rangoli', scrollReveal: true, duration: 1,
+  },
+}

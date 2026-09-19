@@ -1,0 +1,22 @@
+export default {
+  id: 'nordic-calm',
+  name: 'Nordic Calm',
+  description: 'Scandinavian retail — cool greys, sage green, airy grid, understated confidence.',
+  tags: ['nordic', 'airy', 'neutral'],
+  preview: { bg: '#F7F9F8', a: '#5A7D6F', b: '#2F3E38', c: '#DCE5E0' },
+  tokens: {
+    primary: '#5A7D6F', primaryFg: '#FFFFFF', secondary: '#2F3E38', accent: '#C4A77D',
+    bg: '#F7F9F8', surface: '#FFFFFF', surfaceAlt: '#EDF2EF',
+    text: '#1F2A26', textMuted: '#6E7F78', border: '#DCE5E0',
+    success: '#4F8A6B', warning: '#C89B3C', danger: '#B4564B', info: '#4A7A96',
+    fontHeading: "'Jost', 'Inter', sans-serif", fontBody: "'Inter', system-ui, sans-serif",
+    baseSize: 15, scaleRatio: 1.22, headingWeight: '600', bodyWeight: '400',
+    lineHeight: 1.7, letterSpacing: 0.4, headingCase: 'none',
+    radius: 10, radiusSm: 6, borderWidth: 1, shadowIntensity: 'soft',
+    containerWidth: 1260, sectionGap: 92, gridGap: 24,
+    cardStyle: 'flat', buttonStyle: 'soft', inputStyle: 'filled',
+    imageRatio: '4/5', plpColumns: 4,
+    intensity: 'subtle', pageTransition: 'fade', hoverLift: true, parallax: false,
+    confetti: false, backgroundFx: 'none', scrollReveal: true, duration: 1.15,
+  },
+}

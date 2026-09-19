@@ -1,0 +1,22 @@
+export default {
+  id: 'handloom-heritage',
+  name: 'Handloom Heritage',
+  description: 'Earthy artisan storytelling — indigo and terracotta, textile warmth, block-print spirit.',
+  tags: ['artisan', 'earthy', 'indian'],
+  preview: { bg: '#FBF7F0', a: '#2E4756', b: '#B5542A', c: '#D9C5A0' },
+  tokens: {
+    primary: '#2E4756', primaryFg: '#FBF7F0', secondary: '#B5542A', accent: '#C9A227',
+    bg: '#FBF7F0', surface: '#FFFDF9', surfaceAlt: '#F3EADB',
+    text: '#22302B', textMuted: '#7A6B57', border: '#E0D3BD',
+    success: '#4F7942', warning: '#C9922E', danger: '#A63C32', info: '#3D6B8C',
+    fontHeading: "'Libre Baskerville', Georgia, serif", fontBody: "'Karla', 'Inter', sans-serif",
+    baseSize: 15, scaleRatio: 1.28, headingWeight: '700', bodyWeight: '400',
+    lineHeight: 1.7, letterSpacing: 0.1, headingCase: 'none',
+    radius: 8, radiusSm: 4, borderWidth: 1, shadowIntensity: 'soft',
+    containerWidth: 1240, sectionGap: 88, gridGap: 22,
+    cardStyle: 'flat', buttonStyle: 'soft', inputStyle: 'filled',
+    imageRatio: '3/4', plpColumns: 3,
+    intensity: 'normal', pageTransition: 'fade', hoverLift: true, parallax: true,
+    confetti: false, backgroundFx: 'noise', scrollReveal: true, duration: 1.2,
+  },
+}

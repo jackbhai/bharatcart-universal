@@ -1,0 +1,22 @@
+export default {
+  id: 'corporate-trust',
+  name: 'Corporate Trust',
+  description: 'Dense B2B-oriented interface — navy and steel, tight spacing, information-first.',
+  tags: ['b2b', 'dense', 'professional'],
+  preview: { bg: '#F5F7FA', a: '#1E3A5F', b: '#2F6FB0', c: '#CBD5E1' },
+  tokens: {
+    primary: '#1E3A5F', primaryFg: '#FFFFFF', secondary: '#2F6FB0', accent: '#0E9F6E',
+    bg: '#F5F7FA', surface: '#FFFFFF', surfaceAlt: '#EDF1F6',
+    text: '#111C2E', textMuted: '#5B6B80', border: '#D3DBE5',
+    success: '#0E9F6E', warning: '#D97706', danger: '#DC2626', info: '#2F6FB0',
+    fontHeading: "'IBM Plex Sans', 'Inter', sans-serif", fontBody: "'IBM Plex Sans', 'Inter', sans-serif",
+    baseSize: 13, scaleRatio: 1.2, headingWeight: '600', bodyWeight: '400',
+    lineHeight: 1.5, letterSpacing: 0, headingCase: 'none',
+    radius: 6, radiusSm: 4, borderWidth: 1, shadowIntensity: 'soft',
+    containerWidth: 1520, sectionGap: 40, gridGap: 12,
+    cardStyle: 'outlined', buttonStyle: 'solid', inputStyle: 'outlined',
+    imageRatio: '4/5', plpColumns: 5,
+    intensity: 'subtle', pageTransition: 'fade', hoverLift: false, parallax: false,
+    confetti: false, backgroundFx: 'none', scrollReveal: false, duration: 0.8,
+  },
+}

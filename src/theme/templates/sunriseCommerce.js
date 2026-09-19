@@ -1,0 +1,22 @@
+export default {
+  id: 'sunrise-commerce',
+  name: 'Sunrise Commerce',
+  description: 'Bright high-energy D2C — vivid gradients, punchy CTAs, conversion-focused.',
+  tags: ['vivid', 'd2c', 'energetic'],
+  preview: { bg: '#FFFBF5', a: '#FF6B35', b: '#F72585', c: '#FFD166' },
+  tokens: {
+    primary: '#FF6B35', primaryFg: '#FFFFFF', secondary: '#F72585', accent: '#FFD166',
+    bg: '#FFFBF5', surface: '#FFFFFF', surfaceAlt: '#FFF3E6',
+    text: '#1F1235', textMuted: '#7A6B85', border: '#FFE0C7',
+    success: '#06D6A0', warning: '#FFD166', danger: '#EF476F', info: '#118AB2',
+    fontHeading: "'Poppins', 'Inter', sans-serif", fontBody: "'Inter', system-ui, sans-serif",
+    baseSize: 15, scaleRatio: 1.32, headingWeight: '800', bodyWeight: '400',
+    lineHeight: 1.58, letterSpacing: -0.3, headingCase: 'none',
+    radius: 20, radiusSm: 12, borderWidth: 0, shadowIntensity: 'medium',
+    containerWidth: 1300, sectionGap: 76, gridGap: 18,
+    cardStyle: 'raised', buttonStyle: 'pill', inputStyle: 'filled',
+    imageRatio: '3/4', plpColumns: 4,
+    intensity: 'cinematic', pageTransition: 'scale', hoverLift: true, parallax: true,
+    confetti: true, backgroundFx: 'mesh', scrollReveal: true, duration: 0.95,
+  },
+}

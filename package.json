@@ -1,0 +1,50 @@
+{
+  "name": "bharatcart",
+  "version": "1.0.0",
+  "description": "A complete, free ecommerce suite \u2014 admin panel and storefront \u2014 built with React. Pluggable auth backends, 11 languages, 157 currencies, 90 countries.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "ecommerce",
+    "react",
+    "admin-panel",
+    "storefront",
+    "vite",
+    "tailwind",
+    "supabase",
+    "firebase",
+    "cloudflare",
+    "razorpay",
+    "stripe",
+    "open-source"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "for t in render part2 part3 part4 part5 part6 part7 part8 part9 part10 part11 part12 part13 part14 part15; do printf \"%-8s \" $t; npx vite-node tests/$t.mjs 2>&1 | grep -E passed; done",
+    "test:one": "vite-node",
+    "gen:currencies": "python3 scripts/gen_currencies.py",
+    "gen:countries": "python3 scripts/gen_countries.py",
+    "postbuild": "node scripts/copy-spa-fallback.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^11.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^29.1.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "terser": "^5.37.0",
+    "vite": "^6.0.7",
+    "vite-node": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,22 @@
+export default {
+  id: 'glass-aurora',
+  name: 'Glass Aurora',
+  description: 'Modern glassmorphic SaaS look — blurred gradients, frosted cards, cinematic motion.',
+  tags: ['modern', 'glass', 'gradient'],
+  preview: { bg: '#F4F6FA', a: '#6366F1', b: '#F97316', c: '#A855F7' },
+  tokens: {
+    primary: '#6366F1', primaryFg: '#FFFFFF', secondary: '#F97316', accent: '#A855F7',
+    bg: '#F4F6FA', surface: '#FFFFFF', surfaceAlt: '#F8FAFC',
+    text: '#0F172A', textMuted: '#64748B', border: '#E2E8F0',
+    success: '#10B981', warning: '#F59E0B', danger: '#EF4444', info: '#3B82F6',
+    fontHeading: "'Inter', system-ui, sans-serif", fontBody: "'Inter', system-ui, sans-serif",
+    baseSize: 15, scaleRatio: 1.25, headingWeight: '700', bodyWeight: '400',
+    lineHeight: 1.55, letterSpacing: -0.2, headingCase: 'none',
+    radius: 16, radiusSm: 10, borderWidth: 1, shadowIntensity: 'soft',
+    containerWidth: 1280, sectionGap: 64, gridGap: 16,
+    cardStyle: 'glass', buttonStyle: 'solid', inputStyle: 'outlined',
+    imageRatio: '3/4', plpColumns: 4,
+    intensity: 'cinematic', pageTransition: 'fade', hoverLift: true, parallax: true,
+    confetti: true, backgroundFx: 'aurora', scrollReveal: true, duration: 1,
+  },
+}

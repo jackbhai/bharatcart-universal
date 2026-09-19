@@ -1,0 +1,22 @@
+export default {
+  id: 'minimal-muji',
+  name: 'Minimal Muji',
+  description: 'Ultra-clean Japanese-inspired calm — generous whitespace, muted neutrals, no noise.',
+  tags: ['minimal', 'clean', 'calm'],
+  preview: { bg: '#FAFAF8', a: '#3D3D3A', b: '#B8B5AC', c: '#8A8778' },
+  tokens: {
+    primary: '#3D3D3A', primaryFg: '#FFFFFF', secondary: '#8A8778', accent: '#A65E3C',
+    bg: '#FAFAF8', surface: '#FFFFFF', surfaceAlt: '#F4F3EF',
+    text: '#26261F', textMuted: '#8A8778', border: '#E5E3DC',
+    success: '#5B8C5A', warning: '#C99A2E', danger: '#B4544A', info: '#5A7D9A',
+    fontHeading: "'Inter', system-ui, sans-serif", fontBody: "'Inter', system-ui, sans-serif",
+    baseSize: 14, scaleRatio: 1.2, headingWeight: '500', bodyWeight: '400',
+    lineHeight: 1.75, letterSpacing: 0.2, headingCase: 'none',
+    radius: 2, radiusSm: 2, borderWidth: 1, shadowIntensity: 'none',
+    containerWidth: 1200, sectionGap: 104, gridGap: 28,
+    cardStyle: 'flat', buttonStyle: 'outline', inputStyle: 'underline',
+    imageRatio: '1/1', plpColumns: 4,
+    intensity: 'subtle', pageTransition: 'fade', hoverLift: false, parallax: false,
+    confetti: false, backgroundFx: 'none', scrollReveal: true, duration: 1.1,
+  },
+}

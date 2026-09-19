@@ -1,0 +1,22 @@
+export default {
+  id: 'midnight-luxe',
+  name: 'Midnight Luxe',
+  description: 'Dark premium boutique — deep charcoal, gold accents, elegant serif headings.',
+  tags: ['dark', 'luxury', 'premium'],
+  preview: { bg: '#0B0D12', a: '#C9A227', b: '#1A1D26', c: '#E8E3D3' },
+  tokens: {
+    primary: '#C9A227', primaryFg: '#0B0D12', secondary: '#8B7355', accent: '#E8C468',
+    bg: '#0B0D12', surface: '#14171F', surfaceAlt: '#1A1D26',
+    text: '#F2EFE6', textMuted: '#8E8B84', border: '#262A35',
+    success: '#4ADE80', warning: '#FBBF24', danger: '#F87171', info: '#60A5FA',
+    fontHeading: "'Cormorant Garamond', Georgia, serif", fontBody: "'Inter', system-ui, sans-serif",
+    baseSize: 15, scaleRatio: 1.35, headingWeight: '600', bodyWeight: '300',
+    lineHeight: 1.65, letterSpacing: 0.3, headingCase: 'none',
+    radius: 4, radiusSm: 2, borderWidth: 1, shadowIntensity: 'strong',
+    containerWidth: 1360, sectionGap: 96, gridGap: 22,
+    cardStyle: 'outlined', buttonStyle: 'outline', inputStyle: 'underline',
+    imageRatio: '4/5', plpColumns: 3,
+    intensity: 'cinematic', pageTransition: 'blur', hoverLift: true, parallax: true,
+    confetti: false, backgroundFx: 'mesh', scrollReveal: true, duration: 1.2,
+  },
+}

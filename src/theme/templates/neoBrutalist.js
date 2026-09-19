@@ -1,0 +1,22 @@
+export default {
+  id: 'neo-brutalist',
+  name: 'Neo Brutalist',
+  description: 'Loud and confident — hard offset shadows, thick borders, oversized type.',
+  tags: ['bold', 'playful', 'statement'],
+  preview: { bg: '#FFFCF2', a: '#FF5A1F', b: '#111111', c: '#3B82F6' },
+  tokens: {
+    primary: '#FF5A1F', primaryFg: '#111111', secondary: '#3B82F6', accent: '#FFDE3A',
+    bg: '#FFFCF2', surface: '#FFFFFF', surfaceAlt: '#FFF6D6',
+    text: '#111111', textMuted: '#5A5A5A', border: '#111111',
+    success: '#16A34A', warning: '#FFDE3A', danger: '#EF4444', info: '#3B82F6',
+    fontHeading: "'Archivo Black', Impact, sans-serif", fontBody: "'Inter', system-ui, sans-serif",
+    baseSize: 16, scaleRatio: 1.4, headingWeight: '900', bodyWeight: '500',
+    lineHeight: 1.45, letterSpacing: -0.6, headingCase: 'uppercase',
+    radius: 0, radiusSm: 0, radiusFull: 0, borderWidth: 3, shadowIntensity: 'brutal',
+    containerWidth: 1320, sectionGap: 72, gridGap: 20,
+    cardStyle: 'outlined', buttonStyle: 'solid', inputStyle: 'outlined',
+    imageRatio: '1/1', plpColumns: 3,
+    intensity: 'normal', pageTransition: 'slide', hoverLift: true, parallax: false,
+    confetti: true, backgroundFx: 'grid', scrollReveal: true, duration: 0.8,
+  },
+}

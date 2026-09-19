@@ -1,0 +1,22 @@
+export default {
+  id: 'electric-mono',
+  name: 'Electric Mono',
+  description: 'High-contrast monochrome with one electric accent — sharp, technical, fast.',
+  tags: ['monochrome', 'sharp', 'tech'],
+  preview: { bg: '#FFFFFF', a: '#00E5A0', b: '#000000', c: '#F4F4F4' },
+  tokens: {
+    primary: '#00C98D', primaryFg: '#000000', secondary: '#000000', accent: '#00E5A0',
+    bg: '#FFFFFF', surface: '#FFFFFF', surfaceAlt: '#F4F4F4',
+    text: '#000000', textMuted: '#767676', border: '#000000',
+    success: '#00C98D', warning: '#FFB800', danger: '#FF3B3B', info: '#0066FF',
+    fontHeading: "'Space Grotesk', 'Inter', sans-serif", fontBody: "'IBM Plex Sans', 'Inter', sans-serif",
+    baseSize: 14, scaleRatio: 1.33, headingWeight: '700', bodyWeight: '400',
+    lineHeight: 1.5, letterSpacing: -0.3, headingCase: 'uppercase',
+    radius: 0, radiusSm: 0, radiusFull: 0, borderWidth: 2, shadowIntensity: 'none',
+    containerWidth: 1400, sectionGap: 80, gridGap: 2,
+    cardStyle: 'outlined', buttonStyle: 'solid', inputStyle: 'outlined',
+    imageRatio: '1/1', plpColumns: 5,
+    intensity: 'subtle', pageTransition: 'none', hoverLift: false, parallax: false,
+    confetti: false, backgroundFx: 'grid', scrollReveal: false, duration: 0.7,
+  },
+}

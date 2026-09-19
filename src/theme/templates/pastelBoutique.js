@@ -1,0 +1,22 @@
+export default {
+  id: 'pastel-boutique',
+  name: 'Pastel Boutique',
+  description: 'Soft and friendly D2C — blush pinks, rounded everything, gentle motion.',
+  tags: ['soft', 'feminine', 'friendly'],
+  preview: { bg: '#FFF7FA', a: '#E8749B', b: '#A78BFA', c: '#FBCFE8' },
+  tokens: {
+    primary: '#E8749B', primaryFg: '#FFFFFF', secondary: '#A78BFA', accent: '#F9A8D4',
+    bg: '#FFF7FA', surface: '#FFFFFF', surfaceAlt: '#FDF2F8',
+    text: '#3B2B33', textMuted: '#9C8791', border: '#F5DCE6',
+    success: '#4FBF8B', warning: '#F7B955', danger: '#F2698C', info: '#8AB4F8',
+    fontHeading: "'Quicksand', 'Inter', sans-serif", fontBody: "'Nunito', 'Inter', sans-serif",
+    baseSize: 15, scaleRatio: 1.25, headingWeight: '700', bodyWeight: '400',
+    lineHeight: 1.65, letterSpacing: 0, headingCase: 'none',
+    radius: 24, radiusSm: 14, borderWidth: 1, shadowIntensity: 'soft',
+    containerWidth: 1240, sectionGap: 72, gridGap: 20,
+    cardStyle: 'raised', buttonStyle: 'pill', inputStyle: 'filled',
+    imageRatio: '4/5', plpColumns: 4,
+    intensity: 'normal', pageTransition: 'scale', hoverLift: true, parallax: true,
+    confetti: true, backgroundFx: 'aurora', scrollReveal: true, duration: 1.1,
+  },
+}
